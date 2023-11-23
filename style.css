@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'font-padrão';
+    src: url('fonts/Poppins/Poppins-Regular.ttf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'font-padrão', sans-serif;
+}
+
+.header-home {
+    background: url(imagens/background-home.jpg) no-repeat center;
+    background-size: cover;
+    height: 955px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 6rem;
+    align-items: center;
+    padding-top: 12px;
+    height: 120px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 3.5rem;
+}
+
+.list-links {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#contato-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #4699E4;
+    padding: 1rem 1.1rem;
+    border-radius: 10px;
+}
