@@ -4,6 +4,11 @@
     src: url('fonts/Poppins/Poppins-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'font-bold';
+    src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -18,7 +23,6 @@ body {
 .header-home {
     background: url(imagens/background-home.jpg) no-repeat center;
     background-size: cover;
-    height: 955px;
 }
 
 .cabecalho {
@@ -42,6 +46,21 @@ body {
     text-transform: uppercase;
 }
 
+.list-links::after {
+    content: '';
+    background-color: #4699E4;
+    border-radius: 2px;
+    height: 3px;
+    width: 0%;
+    margin: 0px auto;
+    display: block;
+}
+
+.list-links:hover::after {
+    width: 100%;
+    transition: 0.4s;
+}
+
 #contato-link {
     color: white;
     text-decoration: none;
@@ -49,4 +68,62 @@ body {
     background-color: #4699E4;
     padding: 1rem 1.1rem;
     border-radius: 10px;
+}
+
+#contato-link:hover {
+    background-color: #2f81c9;
+    transition: 0.3s;
+}
+
+.header-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    margin: 285px 0px;
+    padding: 25px;
+}
+
+.titulo h1 {
+    font-family: 'font-bold', sans-serif;
+    font-size: 4.7rem;
+    color: rgb(245, 245, 245);
+    margin-bottom: 2px;
+}
+
+.titulo p {
+    font-size: 1.2rem;
+    color: rgb(199, 199, 199);
+    margin-bottom: 16px;
+}
+
+.titulo .button-titulo {
+    padding: 16px 22px;
+    font-family: 'font-padrão', sans-serif;
+    font-size: 1.1rem;
+    background-color: #4699E4;
+    color: rgb(228, 227, 227);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.titulo .button-titulo {
+    animation: animate-outline 1s ease-out infinite;
+}
+
+.titulo .button-titulo:hover {
+    background-color: #2c82ce;
+    transition: 0.3s;
+}
+
+@keyframes animate-outline {
+    from {
+        outline: 0px solid #4699E4;
+    }
+    to {
+        outline: 14px solid #00000000;
+    }
 }
