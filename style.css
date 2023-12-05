@@ -139,7 +139,26 @@ body {
 
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 970px) {
+
+    .cabecalho {
+        margin: 0px 1rem;
+    }
+
+    .titulo {
+        margin: 210px 0px;
+    }
+
+    .titulo h1 {
+        font-size: 3.3rem;
+    }
+
+    .titulo p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    /***************** Menu Responsivo *****************/
     
     .img-menu {
         display: block;
@@ -182,7 +201,7 @@ body {
     .open .menu-button {
         position: fixed;
         top: 45px;
-        right: 32px;
+        right: 25px;
     }
 
     /***************/
@@ -195,5 +214,7 @@ body {
     .contato-link {
         font-size: 1.1rem;
     }
+
+    /************************************************/
 
 }
