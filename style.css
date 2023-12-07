@@ -190,6 +190,18 @@ body {
 
 /************************ Media Queries ***************************/
 
+@media screen and (max-width: 1300px) {
+    
+    .img-desc1 img {
+        height: 330px;
+    }
+
+    .img-desc2 img {
+        height: 320px;
+    }
+
+}
+
 @media screen and (max-width: 1090px) {
     
     .cabecalho {
