@@ -9,6 +9,11 @@
     src: url('fonts/Poppins/Poppins-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'font-semibold';
+    src: url('fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -182,10 +187,79 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 1.5rem;
+    margin-bottom: 7rem;
 }
 
 .img-desc2 img {
     height: 360px;
+}
+
+/***** Section 2 *****/
+
+.section2-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section2-title h1 {
+    font-family: 'font-bold', sans-serif;
+    font-size: 2.7rem;
+}
+
+.section2-title p {
+    color: #474849;
+}
+
+/** Cards **/
+
+.card-perfil img {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card1, .card2, .card3 {
+    width: 350px;
+    padding: 1.1rem;
+    background-color: #c5d9e9;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+    padding: 1rem;
+}
+
+.nome-card {
+    font-family: 'font-semibold', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: rgb(24, 24, 24);
+}
+
+.desc-card {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: rgb(49, 49, 49);
+}
+
+.stars {
+    border-top: 1px solid #71767a5e;
+}
+
+.stars i {
+    margin-top: 1rem;
+    color: #3e85c4;
+    font-size: 1.1rem;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    margin-top: -2rem;
+    transition: 0.3s;
 }
 
 /************************ Media Queries ***************************/
