@@ -222,8 +222,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4.5rem;
+    gap: 4rem;
     padding: 1rem;
+    margin-bottom: 7rem;
 }
 
 .card {
@@ -270,6 +271,60 @@ body {
     transition: 0.3s;
 }
 
+/****** Section 3 ******/
+
+.section3-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section3-title h1 {
+    font-family: 'font-bold', sans-serif;
+    font-size: 2.7rem;
+}
+
+.section3-title p {
+    color: #474849;
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+/****** Section 4 ******/
+
+.section4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 5rem;
+}
+
+.section4-desc {
+    width: 800px;
+}
+
+.section4-desc h2 {
+    font-size: 2.7rem;
+    font-family: 'font-bold', sans-serif;
+    margin-bottom: 10px;
+}
+
+.section4-desc p {
+    color: #474849;
+    margin-bottom: 12px;
+}
+
+.section4-img img {
+    height: 390px;
+}
+
 /************************ Media Queries ***************************/
 
 @media screen and (max-width: 1300px) {
@@ -280,6 +335,14 @@ body {
 
     .img-desc2 img {
         height: 310px;
+    }
+
+    .section4-img img {
+        height: 340px;
+    }
+
+    .clientes {
+        gap: 0px;
     }
 
 }
