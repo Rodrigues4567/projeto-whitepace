@@ -304,6 +304,7 @@ body {
     align-items: center;
     padding: 1.5rem;
     gap: 5rem;
+    margin-bottom: 4rem;
 }
 
 .section4-desc {
@@ -323,6 +324,28 @@ body {
 
 .section4-img img {
     height: 390px;
+}
+
+/****** Footer ******/
+
+footer {
+    background-color: #3e85c4;
+    text-align: center;
+}
+
+.links i {
+    color: #3e85c4;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 5px;
+    margin-top: 55px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.footer-content p {
+    color: rgb(228, 228, 228);
+    padding-bottom: 50px;
 }
 
 /************************ Media Queries ***************************/
@@ -489,6 +512,47 @@ body {
 
     .card {
         width: 85vw;
+    }
+
+    /****** Section 3 ******/
+
+    .section3-title h1 {
+        font-size: 1.9rem;
+    }
+
+    .section3-title p {
+        padding: 0px 8px;
+    }
+
+    .clientes {
+        flex-direction: column;
+    }
+
+    /****** Section 4 ******/
+
+    .section4 {
+        flex-direction: column;
+    }
+
+    .section4-desc h2 {
+        font-size: 2.1rem;
+    }
+
+    .section4-desc {
+        width: 370px;
+        padding: 0px 1.6rem;
+    }
+
+    .section4-img img {
+        height: 250px;
+        margin-bottom: -4rem;
+    }
+
+    /****** Footer ******/
+
+    .footer-content p {
+        padding: 0px 8px;
+        padding-bottom: 40px;
     }
 
 }
