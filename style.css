@@ -31,6 +31,16 @@ body {
     margin-bottom: 3rem;
 }
 
+/***** Header página Sobre *****/
+
+.header-home-sobre {
+    background: url(imagens/background-sobre1.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+/**************/
+
 .img-menu {
     display: none;
 }
@@ -348,6 +358,39 @@ footer {
     padding-bottom: 50px;
 }
 
+/********** Página Sobre **********/
+
+.section-sobre-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+}
+
+.section-sobre-desc {
+    width: 550px;
+    padding-right: 1.5rem;
+}
+
+.section-sobre-desc h2 {
+    font-family: 'font-bold', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.section-sobre-desc p {
+    font-family: 'font-padrão', sans-serif;
+    margin-bottom: 10px;
+}
+
+.section-sobre-img img {
+    height: 480px;
+    border-radius: 10px;
+}
+
 /************************ Media Queries ***************************/
 
 @media screen and (max-width: 1300px) {
@@ -366,6 +409,14 @@ footer {
 
     .clientes {
         gap: 0px;
+    }
+
+    .section-sobre-img img {
+        height: 380px;
+    }
+
+    .section-sobre-desc h2 {
+        font-size: 2rem;
     }
 
 }
@@ -553,6 +604,23 @@ footer {
     .footer-content p {
         padding: 0px 8px;
         padding-bottom: 40px;
+    }
+
+    /********** Página Sobre **********/
+
+    .section-sobre-content {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .section-sobre-img img {
+        height: 210px;
+        margin-bottom: 16px;
+    }
+
+    .section-sobre-desc {
+        padding-right: 0px;
+        width: 85vw;
     }
 
 }
