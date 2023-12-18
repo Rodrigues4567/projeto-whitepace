@@ -41,6 +41,16 @@ body {
 
 /**************/
 
+/***** Header página Serviços *****/
+
+.header-home-servicos {
+    background: url(imagens/background-servicos.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+/**************/
+
 .img-menu {
     display: none;
 }
@@ -389,6 +399,48 @@ footer {
 .section-sobre-img img {
     height: 480px;
     border-radius: 10px;
+}
+
+/********** Página Serviços **********/
+
+.titulo-servicos h1 {
+    text-align: center;
+    font-family: 'font-bold', sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.servicos-cards {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 3rem;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.servicos-card {
+    background-color: #D2E6F5;
+    width: 370px;
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+
+.servicos-card-icon img {
+    background-color: #3e85c4;
+    height: 75px;
+    padding: 11px;
+    border-radius: 1rem;
+}
+
+.servicos-card-title {
+    font-family: 'font-bold', sans-serif;
+    color: #353535;
+    margin-bottom: 3px;
+}
+
+.servicos-card-desc {
+    font-size: 0.9rem;
+    color: rgb(49, 49, 49);
 }
 
 /************************ Media Queries ***************************/
