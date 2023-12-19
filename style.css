@@ -403,6 +403,12 @@ footer {
 
 /********** Página Serviços **********/
 
+/***** Section 1 *****/
+
+.section-servicos {
+    margin-bottom: 3.5rem;
+}
+
 .titulo-servicos h1 {
     text-align: center;
     font-family: 'font-bold', sans-serif;
@@ -441,6 +447,49 @@ footer {
 .servicos-card-desc {
     font-size: 0.9rem;
     color: rgb(49, 49, 49);
+}
+
+.servicos-card:hover {
+    background-color: #3e85c4;
+    transition: 0.4s;
+}
+
+.servicos-card:hover .servicos-card-title,
+.servicos-card:hover .servicos-card-desc {
+    color: white;
+    transition: 0.3s;
+}
+
+/***** Section 2 *****/
+
+.section-servicos2 {
+    background-color: #D2E6F5;
+}
+
+.historicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.3rem;
+    padding: 5.2rem 0px;
+    text-align: center;
+}
+
+.historico-icon img {
+    background-color: #3e85c4;
+    height: 77px;
+    padding: 11px;
+    border-radius: 1rem;
+}
+
+.dados {
+    font-family: 'font-semibold', sans-serif;
+    font-size: 1.5rem;
+    color: #353535;
+}
+
+.dados-desc {
+    color: #353535;
 }
 
 /************************ Media Queries ***************************/
