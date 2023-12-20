@@ -477,9 +477,10 @@ footer {
 
 .historico-icon img {
     background-color: #3e85c4;
-    height: 77px;
+    height: 80px;
     padding: 11px;
     border-radius: 1rem;
+    margin-bottom: 5px;
 }
 
 .dados {
@@ -526,6 +527,12 @@ footer {
     
     .cabecalho {
         margin: 0px 2rem;
+    }
+
+    /********* Página Serviços *********/
+
+    .servicos-cards {
+        grid-template-columns: 370px 370px;
     }
 
 }
@@ -722,6 +729,26 @@ footer {
     .section-sobre-desc {
         padding-right: 0px;
         width: 85vw;
+    }
+
+    /********** Pagina Serviços **********/
+
+    .servicos-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicos-card {
+        background-color: #D2E6F5;
+        width: 85vw;
+        padding: 1.2rem;
+        border-radius: 1rem;
+    }
+
+    .historicos {
+        flex-direction: column;
     }
 
 }
