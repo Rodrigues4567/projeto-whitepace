@@ -51,6 +51,16 @@ body {
 
 /**************/
 
+/***** Header página Contato *****/
+
+.header-home-contato {
+    background: url(imagens/background-contacto.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+/**************/
+
 .img-menu {
     display: none;
 }
@@ -491,6 +501,14 @@ footer {
 
 .dados-desc {
     color: #353535;
+}
+
+/********** Página Contato **********/
+
+.contato-mapa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
 }
 
 /************************ Media Queries ***************************/
