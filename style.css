@@ -511,6 +511,35 @@ footer {
     margin-bottom: 3rem;
 }
 
+/***** Section 2 *****/
+
+.section-contato2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.endereco {
+    background-color: #3e85c4;
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.endereco-items i {
+    font-size: 20px;
+    padding-right: 1rem;
+}
+
+.endereco-items p {
+    line-height: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
 /************************ Media Queries ***************************/
 
 @media screen and (max-width: 1300px) {
