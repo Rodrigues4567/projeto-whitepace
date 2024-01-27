@@ -516,7 +516,8 @@ footer {
 .section-contato2 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 6rem;
 }
 
 .endereco {
@@ -538,6 +539,30 @@ footer {
 .form {
     display: flex;
     flex-direction: column;
+    gap: 0.9rem;
+}
+
+.campo-texto {
+    width: 450px;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid rgba(100, 100, 100, 0.39);
+}
+
+.button-form {
+    width: 165px;
+    padding: 14px;
+    border: none;
+    background-color: #3e85c4;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-form:hover {
+    background-color: #336fa3;
+    transition: 0.3s;
 }
 
 /************************ Media Queries ***************************/
@@ -566,6 +591,10 @@ footer {
 
     .section-sobre-desc h2 {
         font-size: 2rem;
+    }
+
+    .contato-mapa iframe {
+        width: 85vw;
     }
 
 }
