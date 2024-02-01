@@ -523,6 +523,7 @@ footer {
 .endereco {
     background-color: #3e85c4;
     padding: 2rem;
+    margin-right: 1rem;
     border-radius: 10px;
     color: white;
 }
@@ -825,6 +826,34 @@ footer {
 
     .historicos {
         flex-direction: column;
+    }
+
+    /********** Página Contato **********/
+
+    .contato-mapa iframe {
+        width: 90vw;
+        height: 500px;
+    }
+
+    .section-contato2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .endereco {
+        width: 90vw;
+        margin-bottom: 3rem;
+        margin-right: 0px;
+        border-radius: 8px;
+    }
+
+    .endereco-items p {
+        font-size: 0.9rem;
+    }
+
+    .campo-texto {
+        width: 90vw;
     }
 
 }
