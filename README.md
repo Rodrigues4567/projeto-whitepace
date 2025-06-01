@@ -1,5 +1,5 @@
 # WhitePace
-Site institucional para uma empresa que trabalha com criação de sites.
+O projeto Whitepace é um site institucional fictício que promove serviços de criação de websites, lojas virtuais e blogs para empresas de diversos portes.
 
 ### Tecnologias usadas:
 
@@ -8,8 +8,6 @@ Site institucional para uma empresa que trabalha com criação de sites.
 - Javascript
 
 Projeto 100% responsivo!
-
-Site multipage!
 
 ## Imagens
 
